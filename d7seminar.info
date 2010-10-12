@@ -3,19 +3,27 @@ core = 7.x
 description = Get started fast on a site build.
 
 ; Core
-dependencies[] = book
-dependencies[] = contact
-dependencies[] = dblog
-dependencies[] = field_ui
-dependencies[] = file
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
 dependencies[] = menu
 dependencies[] = path
 dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+files[] = d7seminar.profile
 
 ; Contrib
-dependencies[] = admin
-dependencies[] = openid
-dependencies[] = openidadmin
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
