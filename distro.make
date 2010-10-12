@@ -37,6 +37,11 @@ projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-f
 ; +++++++++++++++++++++++++++++++++++++++
 ; From here starts the fun part
 
+; Libraries
+
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4.1/ckeditor_3.4.1.zip"
+
 projects[d7seminar][type] = profile
 projects[d7seminar][download][type] = git
 projects[d7seminar][download][module] =git@github.com:gavriguy/d7seminar.git
